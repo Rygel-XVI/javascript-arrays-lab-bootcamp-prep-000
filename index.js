@@ -25,11 +25,11 @@ function destructivelyRemoveFirstKitten() {
 function appendKitten(name) {
   var newKittens = kittens.slice(0)
   newKittens.push(name)
-  return NewKittens
+  return newKittens
 }
 
 function prependKitten(name) {
   var newKittens = kittens.slice(0)
   newKittens.unshift(name)
-  return NewKittens
+  return newKittens
 }
